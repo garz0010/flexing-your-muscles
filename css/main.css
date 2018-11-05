@@ -21,12 +21,16 @@ img {
   display: flex;
   justify-content: space-between;
   padding: 1em 0;
-
+  flex-wrap: wrap;
   background-color: #8bc9d9;
   border-top: 3px solid #005e76;
   color: #005e76;
 }
 
-.socila > li {
+.social > li {
   width: 3em
+}
+
+.copyright {
+  width: 100%;
 }
